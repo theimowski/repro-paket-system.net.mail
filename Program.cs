@@ -6,7 +6,7 @@ namespace netcore_mailaddress
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(typeof(System.Net.Mail.MailAddress).AssemblyQualifiedName);
         }
     }
 }
