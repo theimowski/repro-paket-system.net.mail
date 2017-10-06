@@ -1,0 +1,9 @@
+RESTRICTION: == net461
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    FSharp.Core (4.2.3)
+    Suave (2.2.1)
+      FSharp.Core (>= 4.0.0.1)
+    Suave.Experimental (2.2.1)
+      FSharp.Core (>= 4.0.0.1)
+      Suave (>= 2.2.1)
